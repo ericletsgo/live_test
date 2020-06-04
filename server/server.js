@@ -1,10 +1,10 @@
   
 const express = require('express');
 const path = require('path');
-const db = require('../database/index.js');
+// const db = require('../database/index.js');
 
 const app = express();
-const port = 3001;
+const port = 8000;
 
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
